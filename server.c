@@ -27,7 +27,7 @@ int main(void)
 	struct sigaction sa;
 	int yes=1;
 
-        // again something
+        //ok  again something
 	if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == -1)
 	 {
 		perror("socket");
